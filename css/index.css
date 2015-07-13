@@ -4,7 +4,10 @@
 	min-height: 0%;
 }
 #touch {
-	background: transparent url('../img/page.jpg');
+	background: transparent url('../img/page.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size : 100% 100%;
 	min-height: 100%;
 }
